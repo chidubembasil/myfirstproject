@@ -1,0 +1,91 @@
+*{
+    margin: 0em;
+    padding: 0em;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right,orange, white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: black;
+}
+img{
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    display: block;
+}
+img:active{
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    display: block;
+}  
+form{
+    text-align: right;
+}
+input, button, label{
+    font-size: 2rem;
+}
+.list:hover{
+    text-transform: uppercase;
+    list-style-type:none;
+    float: left;
+    padding-right: 1em;
+    padding-left: 3em;
+    margin-right:1em;
+    margin-left: 1em;
+    font-size: 2rem;
+    color: #9c7630;
+}
+.list{
+    text-transform: uppercase;
+    list-style-type:none;
+    float: left;
+    padding-right: 2em;
+    padding-left: 5em;
+    margin-right:2em;
+    margin-left: 1em;
+    margin-top: 3%;
+}
+section{
+    margin-top: 7em;
+    text-align: justify;
+    text-indent: 1rem;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;   
+}
+.img2{
+    height: 5%;
+    width: 5%;
+}
+.img2:active{
+    height: 15%;
+    width: 25%;
+}    
+#img1{
+    height: 5%;
+    width: 5%;
+}
+#img1:active{
+    height: 50%;
+    width: 50%;
+}    
+footer{
+    text-align: center;
+    margin-top: 170px;
+ }
+ input{
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+ }
+ button{
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+ }
+ input{
+    text-align: center;
+ }
