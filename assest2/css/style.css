@@ -1,0 +1,23 @@
+fieldset{
+    
+    border: 2px solid green;
+    width: 15%;
+    color: green; 
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+ div{
+    justify-content: center;
+    padding-left: 2%;
+    align-items: center;
+    padding-bottom: 2%;    
+}
+button{
+    color: green;
+    border-radius: 10px;
+}
+
+
+

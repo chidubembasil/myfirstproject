@@ -1,0 +1,19 @@
+body{
+    background-image: url(../image/pexels-benjamin-suter-3617500.jpg);
+}
+fieldset{
+    border: 2px solid green;
+    width: 25%;
+    border-radius: 25px;
+ padding-left: 30px;
+ padding-top: 30px;
+ padding-bottom: 30px;
+ color: green;
+ display: block;
+ margin: auto;
+}
+button{
+    color: green;
+    border-radius: 10px;
+    margin-left: 20%;
+}

@@ -1,0 +1,44 @@
+body{
+    background-image: url(../image/pexels-benjamin-suter-3617500.jpg);
+}
+label{
+    color: green;
+}
+#set{
+    border: 2px solid green;
+    max-width: 200px;
+    max-height: 200px;
+    overflow-y: scroll;
+    margin-left: 20%;
+}
+fieldset{
+    border: 2px solid green;
+    width: 25%;
+    border-radius: 25px;
+ padding-left: 30px;
+ padding-top: 30px;
+ padding-bottom: 30px;
+ color: green;
+ display: block;
+ margin: auto;
+}
+input{
+    width: 40%;
+}
+.bet{
+    width:10% ;
+}
+#sit{
+    justify-content: center;
+    padding-left: 20%;
+    align-items: center;
+    padding-bottom: 2%;    
+} 
+button{
+    color: green;
+    border-radius: 10px;
+    margin-left: 20%;
+}
+#hed{
+    text-align: center;
+}

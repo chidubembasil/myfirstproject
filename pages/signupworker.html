@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jinx</title>
+    <link rel="stylesheet" href="../css/signupworker.css">
+   
+
+</head>
+<body> 
+    <header>
+    <h1>
+       <svg width="160" height="100">
+            <circle cx="40" cy="40" r="17" fill="green"/>
+            <text x="30" y="50" style="fill:black">J</text>
+            <text x="53" y="50" style="fill:black">INX</text>
+            <ellipse cx="40" cy="60" rx="20" ry="10" fill="green"/>
+       </svg>
+ </h1>
+ <a href="../../first.html" style="color: green; text-decoration: none;"><h2>◀Log in</h2></a>
+ </header>
+    <main>
+        <section>
+            <fieldset >
+                <legend>Personal Bio</legend>
+                <h1>Sign up as Worker</h1>
+                <form action="">
+                    <div id="sit">
+                        <label for="fname">First-Name</label>
+                        <br>
+                        <input type="text" name="Fname" id="fname" required>
+                    </div>
+                    <div id="sit">
+                        <label for="lname">Last-Name</label>
+                        <br>
+                        <input type="text" name="Lname" id="lname" required>
+                    </div>
+                    <div id="sit">
+                        <label for="mname">Middle-Name</label>
+                        <br>
+                        <input type="text" name="Mname" id="mname" placeholder="Optional">
+                    </div>
+                    <div id="sit">
+                        <label for="user">Username</label>
+                        <br>
+                        <input type="text" name="Username" id="user" required>
+                    </div>
+                    <div id="sit">
+                        <label for="mail">E-mail</label>
+                        <br>
+                        <input type="email" name="email" id="mail" required>
+                    </div>
+                    <div id="sit">
+                        <label for="pass">Password</label>
+                        <br>
+                        <input type="password" name="Password" id="pass" required>
+                    </div>
+                    <div id="sit">
+                        <label for="date">Date of Birth</label>
+                        <br>
+                        <input type="date" name="Birth" id="date" value="2008" required>
+                    </div>
+                    <div id="sit">
+                        <label for="age">Age</label>
+                        <br>
+                        <input type="number" name="age" id="age" min="15" max="100" required>
+                    </div>
+                    <div id="sit">
+                        <label for="sex">Gender</label>
+                        <br>
+                        <input type="radio" name="human" id="sex" class="bet" required>Male
+                        <input type="radio" name="human" id="sex" class="bet" required>Female
+                    </div>
+                    <div id="set">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    <br> 
+                    Repudiandae laborum nihil molestias optio voluptatem, 
+                    <br>
+                    obcaecati odit rerum omnis ipsam incidunt!
+                    <br>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    <br> 
+                    Repudiandae laborum nihil molestias optio voluptatem, 
+                    <br>
+                    obcaecati odit rerum omnis ipsam incidunt!
+                    <br>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    <br> 
+                    Repudiandae laborum nihil molestias optio voluptatem,
+                    <br> 
+                    obcaecati odit rerum omnis ipsam incidunt!
+                    <br>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    <br> 
+                    Repudiandae laborum nihil molestias optio voluptatem,
+                    <br> 
+                    obcaecati odit rerum omnis ipsam incidunt!
+                    <br>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    <br> 
+                    Repudiandae laborum nihil molestias optio voluptatem,
+                    <br> 
+                    obcaecati odit rerum omnis ipsam incidunt!
+                    <br>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    <br> 
+                    Repudiandae laborum nihil molestias optio voluptatem,
+                    <br> 
+                    obcaecati odit rerum omnis ipsam incidunt!
+                    <br>
+                    <input type="radio" name="Policy" id="" class="bet">Accept
+                    <input type="radio" name="Policy" id="" class="bet">Decline
+                    </div> 
+                </form>
+            </fieldset>
+        </section>
+         <br>
+         <br>
+         <br>
+        <section>
+            <fieldset>
+                <legend>Education Bio</legend>
+                <form action="">
+                    <div>
+                        <label for="lev">Level</label>
+                        <select name="level" id="lev" required>
+                            <option value="Level" disabled selected>Level</option>
+                            <option value="Second">Secondary/High School</option>
+                            <option value="Uni">University</option>
+                            <option value="Graduate">Graduate</option>
+                            <option value="Others">Others</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="deg">Degree</label>
+                        <select name="degree" id="deg" required>
+                            <option value="grad" disabled selected>If you selected graduate</option>
+                            <option value="bachelor">Bachelor</option>
+                            <option value="master">Masters</option>
+                            <option value="phd">Phd</option>
+                            <option value="Professor">Professor</option>
+                            <option value="other">Others</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div>
+                        <form action="" enctype="multipart/form-data">
+                            <label for="folder">CV/Certificate</label>
+                            <input type="file" name="file" id="folder" required>
+                            <br>
+                            <br>
+                            <label for="">More Information</label>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="More details about your education (optional)"></textarea>
+                        </form>
+
+                    </div>
+                    <div>
+                         <form action="">
+                            <label for="car">Career</label>
+                            <select name="carrer" id="car" required>
+                                <option value="ui">UI/UX</option>
+                                <option value="graph">Graphics Designer</option>
+                                <option value="front">Frontend Developer</option>
+                                <option value="back">Backend Developer</option>
+                                <option value="cyber">Cybersecurity</option>
+                                <option value="data1">Data Analyst</option>
+                                <option value="data2">Data Scientist</option>
+                                <option value="soft">Software Developer</option>
+                                <option value="mobile">Mobile Developer</option>
+                            </select>
+                         </form>
+                    </div>
+                </form>
+            </fieldset>
+        </section>
+        <br>
+        <br>
+        <br>
+        <section>
+            <fieldset>
+                <legend>Payment Bio</legend>
+                <form action="">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Name you used for your bank" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="mail">Bank E-mail</label>
+                        <input type="email" name="email" id="mail" placeholder="email you used for your bank" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="bank">Bank name</label>
+                        <select name="" id="" required>
+                            <option value="bank" selected disabled></option>
+                            <option value="chime">Chime</option>
+                            <option value="flutter wave">Flutter wave</option>
+                            <option value="monzo">Monzo</option>
+                            <option value="paypal">Paypal</option>
+                            <option value="payoneer">Payoneer</option>
+                            <option value="paystack">Paystack</option>
+                            <option value="skrill">Skrill</option>
+                            <option value="wise">Wise</option>
+                            <option value="venmo">Venmo</option>
+                            <option value="zelle">Zelle</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="num">Market value($)</label>
+                        <input type="number" name="cash" id="num" min="100" max="1000">
+                    </div>
+                </form>
+            </fieldset>
+        </section>
+        <br>
+        <br>
+        <br>
+        <section>
+        <fieldset>
+            <button type="reset">Reset</button>
+            <button type="submit">Sign in</button>
+        </fieldset>
+    </section>
+    </main>
+ 
+</body>
+</html>
